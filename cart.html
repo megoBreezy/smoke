@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Smoke House</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/libs/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <main id="main">
+      <div class="content">
+        <header class="header header-border"> 
+          <div class="main-container">
+            <div class="header__inner"><a class="logo header__logo" href="#"><img src="img/logo.svg" alt="smoke"></a>
+              <div class="header__info"> 
+                <ul class="header__nav nav">
+                  <li class="nav__item"> <a class="nav__link" href="#">Меню</a></li>
+                  <li class="nav__item"> <a class="nav__link" href="#">Контакты</a></li>
+                </ul><a class="header__phone" href="tel:+375335067979">+375 (33) 506–79–79</a>
+                <ul class="header__action-btns action-btns">
+                  <li class="action-btns__item"><a class="action-btn" href="#">
+                      <svg class="icon icon--user">
+                        <use href="img/sprite.svg#user"></use>
+                      </svg></a></li>
+                  <li class="action-btns__item"><a class="action-btn" href="#"> 
+                      <svg class="icon icon--cart">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg></a></li>
+                </ul><a class="header__reserve-btn btn btn-outline" href="#">Резерв стола</a>
+              </div><a class="header__menu-btn" href="#"> <span></span><span></span><span></span></a>
+            </div>
+          </div>
+          <div class="menu-wrap">
+            <div class="menu-wrap__bg"><img src="img/menu-bg.webp" alt="backgrounf"></div>
+            <div class="menu-inner">
+              <ul class="menu-list"> 
+                <li> <a href="#">о нас</a></li>
+                <li> <a class="is-active" href="#">карьера/вакансии</a></li>
+                <li> <a href="#">меню</a></li>
+                <li> <a href="#">контакты</a></li>
+              </ul>
+            </div>
+            <div class="main-container">
+              <div class="menu-footer">
+                <div class="menu-footer__left"> 
+                  <div class="hours-item"><span>ВС-ЧТ</span> 12:00–03:00</div>
+                  <div class="hours-item"><span>ПТ-СБ</span> 12:00–06:00</div>
+                </div>
+                <div class="menu-footer__center"><a class="menu__phone" href="tel:+375335067979">+375 (33) 506–79–79</a>
+                  <div class="menu__address">г. Барановичи ул. Ленина, 16 «Б»</div>
+                </div>
+                <div class="menu-footer__right">
+                  <ul class="social"> 
+                    <li class="social__item"> <a class="social__link" href="#">instagram </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="section-lk-top section-top">
+          <div class="page-top-bg"> <img src="img/page-top-bg.webp" alt="background"></div>
+          <div class="main-container"> 
+            <ul class="breadcrumbs"> 
+              <li> <a href="index.html">Главная</a></li>
+              <li>Корзина</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section-lk">
+          <div class="main-container" data-aos="fade-down"> 
+            <h1 class="page-title">Корзина</h1>
+          </div>
+          <div class="main-container-sm">
+            <div class="cart" data-aos="fade-left"> 
+              <div class="cart__img"> <img src="img/cart.webp" alt="cart"></div>
+              <div class="cart__body"> 
+                <div class="cart__head"> 
+                  <div class="cart__name">Аляска</div>
+                  <div class="cart__size">Mini (25 см)</div>
+                  <div class="cart__counter counter">
+                    <button class="counter__btn counter__btn--down">
+                      <svg class="icon icon--decrement">
+                        <use href="img/sprite.svg#decrement"></use>
+                      </svg>
+                    </button>
+                    <input class="counter__input" type="text" value="1">
+                    <button class="counter__btn counter__btn--up">
+                      <svg class="icon icon--increment">
+                        <use href="img/sprite.svg#increment"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="cart__remove">Удалить
+                    <svg class="icon icon--cross">
+                      <use href="img/sprite.svg#cross"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="cart__price">11.20 руб.</div>
+                <div class="cart__additionally">Доп. ингредиенты:
+                  <div class="additionally-list"> 
+                    <li>Чеснок</li>
+                    <li>Лук</li>
+                    <li>Бекон</li>
+                  </div>
+                </div>
+                <div class="cart__options">
+                  <div> 
+                    <div class="cart__options-label">Соус на тесто:</div>
+                    <div class="cart__options-info">Чесночный</div>
+                  </div>
+                  <div> 
+                    <div class="cart__options-label">Полить готовую пиццу:</div>
+                    <div class="cart__options-info">Чесночный</div>
+                  </div>
+                  <div> 
+                    <div class="cart__options-label">Борт:</div>
+                    <div class="cart__options-info">Творожный</div>
+                  </div>
+                  <div> 
+                    <div class="cart__options-label">Тесто:</div>
+                    <div class="cart__options-info">Толстое тесто</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart" data-aos="fade-right"> 
+              <div class="cart__img"> <img src="img/cart.webp" alt="cart"></div>
+              <div class="cart__body"> 
+                <div class="cart__head"> 
+                  <div class="cart__name">Аляска</div>
+                  <div class="cart__size">Mini (25 см)</div>
+                  <div class="cart__counter counter">
+                    <button class="counter__btn counter__btn--down">
+                      <svg class="icon icon--decrement">
+                        <use href="img/sprite.svg#decrement"></use>
+                      </svg>
+                    </button>
+                    <input class="counter__input" type="text" value="1">
+                    <button class="counter__btn counter__btn--up">
+                      <svg class="icon icon--increment">
+                        <use href="img/sprite.svg#increment"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="cart__remove">Удалить
+                    <svg class="icon icon--cross">
+                      <use href="img/sprite.svg#cross"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="cart__price">11.20 руб.</div>
+                <div class="cart__additionally">Доп. ингредиенты:
+                  <div class="additionally-list"> 
+                    <li>Чеснок</li>
+                    <li>Лук</li>
+                    <li>Бекон</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart" data-aos="fade-left"> 
+              <div class="cart__img"> <img src="img/cart.webp" alt="cart"></div>
+              <div class="cart__body"> 
+                <div class="cart__head"> 
+                  <div class="cart__name">Аляска</div>
+                  <div class="cart__size">Mini (25 см)</div>
+                  <div class="cart__counter counter">
+                    <button class="counter__btn counter__btn--down">
+                      <svg class="icon icon--decrement">
+                        <use href="img/sprite.svg#decrement"></use>
+                      </svg>
+                    </button>
+                    <input class="counter__input" type="text" value="1">
+                    <button class="counter__btn counter__btn--up">
+                      <svg class="icon icon--increment">
+                        <use href="img/sprite.svg#increment"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="cart__remove">Удалить
+                    <svg class="icon icon--cross">
+                      <use href="img/sprite.svg#cross"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="cart__price">11.20 руб.</div>
+                <div class="cart__additionally">Доп. ингредиенты:
+                  <div class="additionally-list"> 
+                    <li>Чеснок</li>
+                    <li>Лук</li>
+                    <li>Бекон</li>
+                  </div>
+                </div>
+                <div class="cart__options">
+                  <div> 
+                    <div class="cart__options-label">Соус на тесто:</div>
+                    <div class="cart__options-info">Чесночный</div>
+                  </div>
+                  <div> 
+                    <div class="cart__options-label">Полить готовую пиццу:</div>
+                    <div class="cart__options-info">Чесночный</div>
+                  </div>
+                  <div> 
+                    <div class="cart__options-label">Борт:</div>
+                    <div class="cart__options-info">Творожный</div>
+                  </div>
+                  <div> 
+                    <div class="cart__options-label">Тесто:</div>
+                    <div class="cart__options-info">Толстое тесто</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-amount">
+              <div> 
+                <div class="order-amount__summ"><span class="order-amount__label">Итого:</span> <b class="text-rouse">53  руб.</b></div>
+              </div>
+            </div><a class="btn btn-full btn-primary" href="#">Оформить заказ</a>
+            <button class="cart-clear" type="button">Очистить корзину
+              <svg class="icon icon--cross">
+                <use href="img/sprite.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
+        </section>
+      </div>
+      <footer class="footer"> 
+        <div class="main-container-md">
+          <div class="footer__inner"> <a class="logo footer__logo" href="#"><img src="img/footer-logo.svg" alt="smoke house"></a>
+            <div class="footer__body"> 
+              <div class="footer__col"> 
+                <ul class="footer-menu"> 
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="#">О нас</a></li>
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="#">Карьера</a></li>
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="#">Меню</a></li>
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="#">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="footer__col"> 
+                <h3 class="footer-title">Режим работы:</h3>
+                <div class="hours-item"><span>ВС-ЧТ</span> 12:00–03:00</div>
+                <div class="hours-item"><span>ПТ-СБ</span> 12:00–06:00</div>
+              </div>
+              <div class="footer__col"> 
+                <div class="footer__group"> 
+                  <h3 class="footer-title">Для заказа:</h3><a class="footer__phone" href="tel:+375335067979">+375 (33) 506–79–79 </a>
+                  <div class="footer__address">г. Барановичи ул. Ленина, 16 «Б»</div>
+                </div>
+                <div class="footer__group"> 
+                  <h3 class="footer-title">Мы в соц. сетях:</h3><a class="footer__social" href="#">instagram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom"> 
+          <div class="main-container"> 
+            <div class="footer__bottom-inner"> 
+              <div class="footer-certificate">Название компании: ООО «Крэйзи Мир» УНП 291696764 Адрес: 225404, Республика Беларусь, Барановичи, ул. Ленина, д. 26А. Свидетельство о государственной регистрации № 291696764 от 01.06.2021 выдано Барановичским горисполкомом. Сайт krazysmak.by успешно прошёл регистрацию в БелГИЭ 22.09.2021. Ваш регистрационный номер: SI346321D235R252344ID175033210917. Режим работы 11:00–23:00 email: info@krazysmak.by</div>
+              <div>
+                <div class="footer-copyright">© 2023, SMOKE HOUSE</div>
+                <div class="footer-dev"> 
+                  <div class="footer-dev__text">Разработано в</div><a class="footer-dev__logo" href="#"> <img src="img/LikeIt.svg" alt="likeit"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="js/vendor/aos.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/vendor/inputmask.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkzauF5L2fiH_DJKvhSFrz8mXVO_bnSz8&amp;callback=Function.prototype" async defer></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
